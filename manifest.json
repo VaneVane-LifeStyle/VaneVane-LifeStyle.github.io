@@ -56,12 +56,13 @@
     "screenshots": [
       {
         "src": "fondo.jpg",
-        "type": "image/jpg"
+        "type": "image/jpg",
+        "sizes": "2835x1758"
       },
       {
         "src": "perfil.png",
         "type": "image/png",
-        "sizes": "140x140"
+        "sizes": "500x500"
       }
     ]
   }
