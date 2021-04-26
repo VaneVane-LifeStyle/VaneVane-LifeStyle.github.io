@@ -1,0 +1,67 @@
+{
+    "short_name": "VaneVane",
+    "name": "VaneVane Progressive Web App",
+    "icons": [
+      {
+        "src": "icons/icon-16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      },
+      {
+        "src": "icons/icon-32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "icons/icon_64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "icons/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+    },
+    {
+        "src": "icons/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    },
+    {
+        "src": "icons/icon-168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+    },
+    {
+        "src": "icons/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "icons/icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    },
+    {
+        "src": "icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }           
+    ],
+    "start_url": "index.html",
+    "background_color": "#FF0080",
+    "display": "fullscreen",
+    "theme_color": "#FF0080",
+    "description": "Soy una blogger Venezolana, que le gusta compartir videos, maquillajes e ideas de estilos de vida.",
+    "screenshots": [
+      {
+        "src": "fondo.jpg",
+        "type": "image/jpg"
+      },
+      {
+        "src": "perfil.png",
+        "type": "image/png",
+        "sizes": "140x140"
+      }
+    ]
+  }
