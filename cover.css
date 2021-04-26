@@ -64,6 +64,11 @@ body {
 }
 
 .bd-highlight {
-  background-color: rgba(248, 53, 173, 0.5);
+  background-color: rgba(248, 53, 173, 0.7);
+  border: 1px solid #fff;
+}
+
+.bd-highlight2 {
+  background-color: rgba(54, 0, 17, 0.7);
   border: 1px solid #fff;
 }
