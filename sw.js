@@ -9,6 +9,8 @@ const appShellFiles = [
   'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css',
   '/fontawesome/css/fontawesome.css',
   '/fontawesome/css/brands.min.css',
+  'addtohomescreen.js',
+  'addtohomescreen.css',
   '/icons/icon-16.png',
   '/icons/icon-32.png',
   '/icons/icon-64.png',
