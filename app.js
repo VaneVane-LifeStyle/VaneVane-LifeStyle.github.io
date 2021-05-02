@@ -1,5 +1,5 @@
 
-window.onload = (e) => { 
+//window.onload = (e) => { 
 
    // Registering Service Worker
 if ('serviceWorker' in navigator) {
@@ -32,4 +32,4 @@ const isIos = () => {
    addToHomescreen();
  }
 
-} //window.onload
+//} //window.onload
