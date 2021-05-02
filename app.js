@@ -19,6 +19,7 @@ if ('serviceWorker' in navigator) {
 // Detects if device is on iOS 
 const isIos = () => {
    const userAgent = window.navigator.userAgent.toLowerCase();
+   console.log(userAgent);
    return /iphone|ipad|ipod/.test( userAgent );
  }
  // Detects if device is in standalone mode
@@ -27,6 +28,7 @@ const isIos = () => {
  // Checks if should display install popup notification:
  if (isIos() && !isInStandaloneMode()) {
    this.setState({ showInstallMessage: true });
+   console.log(showInstallMessage);
  }
 
 } //window.onload
