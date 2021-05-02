@@ -28,7 +28,8 @@ const isIos = () => {
  // Checks if should display install popup notification:
  if (isIos() && !isInStandaloneMode()) {
    //this.setState({ showInstallMessage: true });
-   alert('hurray');
+   //alert('hurray');
+   addToHomescreen();
    console.log(showInstallMessage);
  }
 
