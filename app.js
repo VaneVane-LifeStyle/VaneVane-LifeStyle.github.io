@@ -1,5 +1,7 @@
 
-// Registering Service Worker
+window.onload = (e) => { 
+
+   // Registering Service Worker
 if ('serviceWorker' in navigator) {
     //navigator.serviceWorker.register('sw.js');
    
@@ -26,3 +28,5 @@ const isIos = () => {
  if (isIos() && !isInStandaloneMode()) {
    this.setState({ showInstallMessage: true });
  }
+
+} //window.onload
