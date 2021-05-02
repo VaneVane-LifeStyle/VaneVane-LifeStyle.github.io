@@ -30,7 +30,7 @@ const isIos = () => {
    //this.setState({ showInstallMessage: true });
    //alert('hurray');
    addToHomescreen();
-   console.log(showInstallMessage);
+   //console.log(showInstallMessage);
  }
 
 } //window.onload
