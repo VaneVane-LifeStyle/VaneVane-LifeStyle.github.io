@@ -27,7 +27,10 @@ const isIos = () => {
  console.log(isInStandaloneMode);
  // Checks if should display install popup notification:
  if (isIos() && !isInStandaloneMode()) {
-   this.setState({ showInstallMessage: true });
+   //this.setState({ showInstallMessage: true });
+   popupWindow = window.open(
+      url,'popUpWindow','height=250,width=350,left=50,top=50,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+}
    console.log(showInstallMessage);
  }
 
